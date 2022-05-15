@@ -1,0 +1,36 @@
+{
+  "name": "express-api-starter",
+  "version": "1.0.0",
+  "description": "This is an starter project for creating express-js API",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon src/app.js",
+    "production": "NODE_ENV=production node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelrahman/express-api-starter.git"
+  },
+  "keywords": [
+    "express-starter"
+  ],
+  "author": "Gazi Mizanur Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavelrahman/express-api-starter/issues"
+  },
+  "homepage": "https://github.com/pavelrahman/express-api-starter#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.0",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3",
+    "multer": "^1.4.4",
+    "validator": "^13.7.0"
+  }
+}
